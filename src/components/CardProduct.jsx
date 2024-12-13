@@ -11,10 +11,10 @@ function CardProduct({img, name, text, price}) {
                 </p>
 
                 <div>
-                    <p className="card-price">$ ETH {price}</p>
+                    <p className="card-price">$ ETH <span>{price}</span></p>
                 </div>
 
-                <Button>Agregar al carrito</Button>
+                <Button color={"blue"}>Comprar</Button>
 
             </div>
         </div>
